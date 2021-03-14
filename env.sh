@@ -10,10 +10,10 @@ do
  echo "${line#export }" >> .env
  echo "${line#export }" >> ~/.astrarc
 done
-echo "Please enter your database password"
-read password
-echo "ASTRA_DB_PASSWORD=$password" >> ~/.astrarc
+echo "Please enter your application token"
+read token
+echo "ASTRA_DB_APPLICATION_TOKEN=$token" >> ~/.astrarc
 echo "GAMES_COLLECTION=games" >> ~/.astrarc
 echo "ASTRA_DB_TOKEN=0" >> ~/.astrarc
 echo "ASTRA_DB_TOKEN_TIME=0" >> ~/.astrarc
-echo "ASTRA_DB_PASSWORD=$password" >> .env
+echo "ASTRA_DB_APPLICATION_TOKEN=$token" >> .env
