@@ -9,6 +9,7 @@ do
  [[ $line =~ .*app_token.* ]]&& break
  echo "${line#export }" >> .env
  echo "${line#export }" >> ~/.astrarc
+ `$line`
 done
 echo "Please enter your application token"
 read token
