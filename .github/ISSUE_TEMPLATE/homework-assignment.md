@@ -3,14 +3,14 @@ name: Homework Assignment
 about: Use this template to submit the homework
 title: "[HW] <NAME>"
 labels: homework
-assignees: HadesArchitect
+assignees: synedra
 
 ---
 
 **Name:** <NAME>
 **Linkedin Profile:** <LINK>
 
-Attach the homework screenshots below:
+Create a new astraClient call and paste it below:
 -----------------------------------------
 
-<SCREENSHOTS>
+
